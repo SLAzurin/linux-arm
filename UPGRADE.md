@@ -1,6 +1,6 @@
 ## How to upgrade this kernel on Armbian TV arm64 (AML s9xx)
 
-1. Clone this repo (or the one from @150balbes)
+1. Clone this repo (or the one from [150balbes](https://github.com/150balbes))
 
 2. Build the kernel with these parameters: 
 ```
