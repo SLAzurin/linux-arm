@@ -27,3 +27,7 @@ update-initramfs -c -k <linux_kernel_version>
 shutdown -h now
 # Then power back on the device
 ```
+
+Credits: \
+@150balbes - For the main work \
+[loverpi's wiki](http://wiki.loverpi.com/faq:sbc:libre-aml-s805x-install-newly-compiled-kernel) - For the post kernel build steps
