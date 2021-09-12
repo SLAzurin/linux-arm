@@ -4,7 +4,7 @@
 
 2. Build the kernel with these parameters: 
 ```
-make -j$(nproc) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- Image dtbs
+make -j$(nproc) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- Image modules
 ```
 
 3. rsync source to destination arm64 device.
