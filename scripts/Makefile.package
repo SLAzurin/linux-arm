@@ -80,6 +80,7 @@ deb-pkg:
 PHONY += bindeb-pkg
 bindeb-pkg:
 	$(CONFIG_SHELL) $(srctree)/scripts/package/mkdebian
+	mv debian/headertmp/usr/include/aarch64-linux-gnu debian/headertmp/usr/include/aarch64-linux-gnu.bak
 	+dpkg-buildpackage -r$(KBUILD_PKG_ROOTCMD) -a$$(cat debian/arch) $(DPKG_FLAGS) -b -nc -uc
 
 PHONY += intdeb-pkg
